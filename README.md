@@ -4,11 +4,11 @@
 [![Model: Dream-VL-7B](https://img.shields.io/badge/HuggingFace-Dream--VL--7B-yellow.svg)](https://huggingface.co/Dream-org/Dream-VL-7B)
 [![Model: Dream-VLA-7B](https://img.shields.io/badge/HuggingFace-Dream--VLA--7B-yellow.svg)](https://huggingface.co/Dream-org/Dream-VLA-7B)
 ![](assets/overview.png)
-**Dream-VL** and **Dream-VLA** are open **diffusion-based Vision-Language (VL)** and **Vision-Language-Action (VLA)** models built on top of the diffusion language model **Dream 7B**. They fully exploit discrete diffusion for **long-horizon planning**, **bidirectional reasoning**, and **parallel action generation** in multimodal tasks.
+Building on the success of Dream 7B, we introduce Dream-VL and Dream-VLA, open VL and VLA models that fully unlock discrete diffusion’s advantages in **long-horizon planning**, **bidirectional reasoning**, and **parallel action generation** for multimodal tasks.
 
-- **Dream-VL**: State-of-the-art among diffusion VLMs, competitive with top autoregressive VLMs trained on open data, and particularly strong on **visual planning** and long-horizon reasoning.
-- **Dream-VLA**: A diffusion VLA model achieving **97.2%** avg on **LIBERO**, **71.4%** on **SimplerEnv–Bridge**, and **60.5%** on **SimplerEnv–Fractal**.
-
+Key Results:
+- **Dream-VL**: Achieves state-of-the-art performance among diffusion VLMs, comparable to top-tier AR VLMs trained on open data, with superior performance on visual planning tasks requiring long-horizon reasoning.
+- **Dream-VLA**: Establishes top-tier performance with 97.2% average on LIBERO, 71.4% on SimplerEnv–Bridge, and 60.5% on SimplerEnv–Fractal, surpassing leading models including GR00T-N1 and OpenVLA-OFT. Consistently outperforms AR baselines across diverse finetuning objectives.
 
 ## 🚀 News
 

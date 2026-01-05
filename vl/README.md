@@ -1,4 +1,4 @@
-# Dream-VLA
+# Dream-VL
 ## Installation
 
 ```bash
@@ -205,12 +205,12 @@ cd eval
 
 To run the evaluation, use the following command:
 ```bash
-bash eval/eval_dream_vl.sh
+bash eval_dream_vl.sh
 ```
 
 If you want to eval a checkpoint during training (i.e., before running `python export.py`), use:
 ```bash
-bash eval/eval_llava_dream_vl.sh
+bash eval_llava_dream_vl.sh
 ```
 
 

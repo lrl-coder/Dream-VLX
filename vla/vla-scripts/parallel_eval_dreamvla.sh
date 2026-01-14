@@ -1,8 +1,9 @@
 #!/bin/bash
 
+CUDA_VISIBLE_DEVICES=0
 total_tasks=50
-num_gpus=8
-path= # PATH to finetuned dream-vla ckpt
+num_gpus=1
+path="./checkpoint/fine-tuned"  # PATH to finetuned dream-vla ckpt
 
 log_dir=$path/eval_logs
 mkdir -p $log_dir
